@@ -2,7 +2,7 @@
 Intro to Web Security Testing - .Net Core, NodeJS (Express), php
 
 
-## Tools
+# Tools
 - Rudimentory Hacking
   - Use Google (yes Google) ! = 
     - Search Syntax: https://ahrefs.com/blog/google-advanced-search-operators/
@@ -22,12 +22,26 @@ Intro to Web Security Testing - .Net Core, NodeJS (Express), php
     2.a. gzip -dc PyXML-0.8.4.tar.gz | tar -xvf -
   3. 
  
-## Fundamentals
+# Fundamentals
 OWASP - Open Web Application Security Project (OWASP) [https://www.owasp.org/index.php/Main_Page]
-# Common Attacks
+## Common Attacks
   - Stored Cross-site Scripting (XSS).
   - SQL Injection.
     * Cheat Sheet (https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/)
   - Authentication bypass.
   - Directory traversal abuse.
   - Unrestricted file upload.
+
+# Hardening
+- APACHE / NGINX (SERVER) https://www.keycdn.com/blog/http-security-headers
+- NODEJS https://helmetjs.github.io/
+- .Net Core https://www.nuget.org/packages/OwaspHeaders.Core/
+- Headers https://pentest-tools.com/blog/essential-http-security-headers/
+
+# References
+- https://geekflare.com/open-source-web-security-scanner/
+- https://hackertarget.com/10-open-source-security-tools/
+- http://rgaucher.info/beta/grabber/
+- https://wfuzz.readthedocs.io/en/latest/user/installation.html
+- http://w3af.org/
+- 
