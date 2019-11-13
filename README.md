@@ -11,11 +11,11 @@ Intro to Web Security Testing - .Net Core, NodeJS (Express), php
 - Burp Suite (Market Leader)
   1. https://portswigger.net/burp (Download the Community Edition)
 - XssPy - Python (https://github.com/faizann24/XssPy) 
-  1. Clone the PHP Script
+  1. Clone the Repo (git clone https://github.com/faizann24/XssPy.git)
   2. Run: 
     pip install mechanize
   3. Check Headers for Details (HTTP Response Headers)
-    python .\XssPy.py -u rocketpost.io
+    python .\XssPy.py -u beandaddy.com
 - Grabber (http://rgaucher.info/beta/grabber/)
   1. pip install beautifulsoup4
   2. download PyXML
