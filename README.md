@@ -15,9 +15,14 @@ Intro to Web Security Testing - .Net Core, NodeJS (Express), php
     python .\XssPy.py -u beandaddy.com -e
 - Grabber (http://rgaucher.info/beta/grabber/)
   1. pip install beautifulsoup4
-  2. download PyXML
-    2.a. gzip -dc PyXML-0.8.4.tar.gz | tar -xvf -
-  3. 
+  2. download PyXML (https://sourceforge.net/projects/pyxml/files/)
+  - RUN:
+      gzip -dc PyXML-0.8.4.tar.gz | tar -xvf -
+  - Run "python setup.py build" to copy *.py files and compile the C
+   extensions.
+  - To install everything in the site-packages directory as an xml/
+   package, run "python setup.py install".
+   
  
 # Fundamentals
 OWASP - Open Web Application Security Project (OWASP) [https://www.owasp.org/index.php/Main_Page]
